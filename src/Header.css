@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "ITC Avant Garde Gothic Pro";
+  src: url(./assets/font/ITC/ITCAvantGardeStd-Bk.ttf);
+}
+nav {
+  background: rgb(255, 255, 255);
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px 80px;
+  position: fixed;
+  display: flex;
+  height: auto;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+nav .icon-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+nav .icon-text img {
+  width: auto;
+  height: auto;
+}
+nav .icon-text h1 {
+  font-family: "ITC Avant Garde Gothic Pro";
+  color: rgb(117, 191, 122);
+  font-size: 65.26px;
+  font-weight: 500;
+  line-height: 68px;
+  text-align: left;
+}
+nav .controlls-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 47px;
+}
+nav .controlls-links article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 46px;
+}
+nav .controlls-links article h4 {
+  font-size: 17.16px;
+  font-weight: 500;
+  line-height: 20.82px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+nav .controlls-links button {
+  background: rgb(117, 191, 122);
+  border-radius: 5.95px;
+  width: 182px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.95px;
+  text-decoration: none;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  margin-top: 174px;
+  margin: 0 80px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header .blockText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 27px;
+}
+header .blockText h2 {
+  width: 557px;
+  font-size: 60.73px;
+  font-weight: 800;
+  line-height: 65.91px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+header .blockText p {
+  width: 550px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(158, 157, 162);
+}
+header .blockText .contButton {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+header img {
+  width: auto;
+  height: auto;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  align-items: center;
+  border-radius: 5px;
+  font-size: 24.6px;
+  font-weight: 800;
+  text-align: left;
+  height: 66.77px;
+  cursor: pointer;
+  border: none;
+  width: 260px;
+  gap: 10px;
+}
+button svg {
+  width: 34px;
+  height: 34px;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=Header.css.map */

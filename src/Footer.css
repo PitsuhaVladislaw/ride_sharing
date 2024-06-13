@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "ITC Avant Garde Gothic Pro";
+  src: url(./assets/font/ITC/ITCAvantGardeStd-Bk.ttf);
+}
+footer {
+  display: flex;
+  position: static;
+  padding: 71px 0 31px;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  align-items: center;
+  gap: 38px;
+}
+footer section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 91px;
+}
+footer section .icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+footer section .icon-block img {
+  height: auto;
+  width: auto;
+}
+footer section .icon-block h3 {
+  font-family: "ITC Avant Garde Gothic Pro";
+  font-size: 47.49px;
+  font-weight: 500;
+  line-height: 49.49px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+footer section .texts-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 73px;
+}
+footer section .texts-block div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+}
+footer section .texts-block div h5 {
+  margin-bottom: 6px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.69px;
+  text-align: left;
+  color: rgb(39, 32, 66);
+  cursor: pointer;
+}
+footer section .texts-block div h6 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgb(139, 139, 165);
+  cursor: pointer;
+}
+footer section .controll-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 41.6px;
+}
+footer section .controll-block button {
+  width: 178.51px;
+  height: 45.84px;
+  font-size: 16.89px;
+}
+footer section .controll-block button svg {
+  width: 21.14px;
+  height: 20.52px;
+}
+footer hr {
+  width: 100%;
+  border: 1px solid rgb(236, 236, 236);
+}
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+  color: rgb(117, 191, 122);
+}/*# sourceMappingURL=Footer.css.map */
